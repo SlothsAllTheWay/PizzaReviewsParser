@@ -7,12 +7,22 @@ import asyncio
 BASE_URL="https://onebite.app/reviews/dave?page={}&minScore=0&maxScore=10"
 NUM=37
 
+def getFullName(row: BeautifulSoup)->str:
+    url="https://onebite.app"+row.find(class_="jsx-574827726")["href"]
+    html=BeautifulSoup(requests.get(url).text, "html.parser")
+    name=html.find({"h1":"jsx-84601126"}).text
+
+    return name
+
 def getData(row: BeautifulSoup)->Tuple:
     score=row.find(class_="jsx-845469894 rating__score").text
     name=row.find(class_="jsx-574827726 reviewCard__title").text
     city_and_state=row.find(class_="jsx-574827726 reviewCard__location").text
 
     city, state=city_and_state.split(", ")
+
+    if "..." in name:
+        name=getFullName(row)
 
     """try:
         score=float(score)
@@ -23,11 +33,11 @@ def getData(row: BeautifulSoup)->Tuple:
 
 async def getHTMLs(urls: list[str])->list[Tuple]:
     async with httpx.AsyncClient() as client:
-        tasks = (client.get(url) for url in urls)
+        tasks = (client.get(url, timeout=None) for url in urls)
         reqs = await asyncio.gather(*tasks)
 
     htmls = [BeautifulSoup(req.text, "html.parser") for req in reqs]
-    data=[html.find_all(class_="jsx-574827726 reviewCard reviewCard--feedItem") for html in htmls]
+    data=[html.find_all(class_="jsx-596798944 col col--review") for html in htmls]
     rows=[]
 
     for item in data:
