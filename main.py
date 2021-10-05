@@ -7,13 +7,6 @@ import asyncio
 BASE_URL="https://onebite.app/reviews/dave?page={}&minScore=0&maxScore=10"
 NUM=37
 
-def getFullName(row: BeautifulSoup)->str:
-    url="https://onebite.app"+row.find(class_="jsx-574827726")["href"]
-    html=BeautifulSoup(requests.get(url).text, "html.parser")
-    name=html.find({"h1":"jsx-84601126"}).text
-
-    return name
-
 def getData(row: BeautifulSoup)->Tuple[str]:
     score=row.find(class_="jsx-845469894 rating__score").text
     name=row.find(class_="jsx-574827726 reviewCard__title").text
@@ -21,10 +14,10 @@ def getData(row: BeautifulSoup)->Tuple[str]:
 
     city, state=city_and_state.split(", ")
 
-    """try:
-        score=float(score)
+    try:
+        float(score)
     except ValueError:
-        score=0"""
+        score="0"
 
     return [score, name, city, state]
 
