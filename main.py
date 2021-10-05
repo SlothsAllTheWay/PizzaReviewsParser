@@ -52,10 +52,7 @@ def main():
 
     data=asyncio.run(getHTMLs(urls))
 
-    #for item in data:
-    #    print(*item, sep="\t")
-
-    with open("data.csv", "w") as f:
+    with open("data.csv", "w", encoding="UTF-8") as f:
         f.write("score\tname\tcity\tstate\n")
         for item in data:
             f.write("\t ".join(item)+"\n")
