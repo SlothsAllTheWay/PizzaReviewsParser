@@ -9,7 +9,7 @@ score	name	city	state
 7.1	 Battle Hill Tavern	 Brooklyn	 NY
 8.1	 Giuseppina's	 Brooklyn	 NY
 9.3	 Luigi's Pizza	 Brooklyn	 NY
-8.2	 Baby Luc�s	 Brooklyn	 NY
+8.2	 Baby Luc’s	 Brooklyn	 NY
 6.8	 Spinelli's Pizzeria	 New York	 NY
 5.8	 Trattoria Bianca	 New York	 NY
 7.4	 Marble Room Steaks and Raw Bar	 Cleveland	 OH
@@ -22,7 +22,7 @@ score	name	city	state
 7.1	 Berardi Brothers Pizza	 Sea Isle City	 NJ
 6.8	 Poppi's Brick Oven Pizza	 Wildwood	 NJ
 7.1	 Preps Pizzeria	 Ocean City	 NJ
-7.1	 Steak�em Up	 North Wildwood	 NJ
+7.1	 Steak’em Up	 North Wildwood	 NJ
 5.3	 Sorrento II Pizzeria & Restaurant	 Wildwood	 NJ
 7.6	 Mama Santa's	 Cleveland	 OH
 6.7	 Mack's Pizza	 Wildwood	 NJ
@@ -81,7 +81,7 @@ score	name	city	state
 7.3	 Nicholas Barrel & Roost	 Red Bank	 NJ
 5.9	 Noble Roman's Craft Pizza & Pub	 Westfield	 IN
 6.1	 Mother Bear's Pizza Campus	 Bloomington	 IN
-7.2	 Zoni�s Brooklyn Brick Coal Oven Pizzeria	 RED BANK	 NJ
+7.2	 Zoni’s Brooklyn Brick Coal Oven Pizzeria	 RED BANK	 NJ
 5.6	 Stella 34 Trattoria	 New York	 NY
 7.1	 The Bread Factory Cafe	 New York	 NY
 2.9	 Lazzaro	 New York	 NY
@@ -171,7 +171,7 @@ score	name	city	state
 7.3	 Niki's Pizza	 Detroit	 MI
 7.5	 Supino Pizzeria	 Detroit	 MI
 6.8	 Piazza Di Pizza	 Moonachie	 NJ
-7.1	 Caf� Villa	 Chatham	 NJ
+7.1	 Café Villa	 Chatham	 NJ
 8.9	 Calabria Restaurant & Pizzeria	 Livingston	 NJ
 6.9	 Buon Pane Italiano Bakery	 Miami Beach	 FL
 6.8	 Fratelli La Bufala	 Miami Beach	 FL
@@ -208,7 +208,7 @@ score	name	city	state
 7.4	 Randazzo's Pizzeria	 Philadelphia	 PA
 6.8	 Philly Style Pizza and Grille	 Philadelphia	 PA
 6.6	 Amici Vicinato	 Lafayette Hill	 PA
-7.3	 Caf� Carmela	 Philadelphia	 PA
+7.3	 Café Carmela	 Philadelphia	 PA
 7.6	 Charlie's Pizzeria	 Philadelphia	 PA
 7.4	 Franzone's Pizzeria & Restaurant	 Philadelphia	 PA
 7.1	 Maxi's Pizza, Subs and Bar	 Philadelphia	 PA
@@ -218,7 +218,7 @@ score	name	city	state
 7.4	 Montesini Pizza	 Philadelphia	 PA
 7.8	 Gaetano's Pizzeria	 Clifton Heights	 PA
 6.9	 Imperial Pizza	 Secane	 PA
-7.3	 Sam�s Boardwalk Style Pizza & Bottle Shop	 Havertown	 PA
+7.3	 Sam’s Boardwalk Style Pizza & Bottle Shop	 Havertown	 PA
 7.8	 Pica's Restaurant of Upper Darby	 Upper Darby	 PA
 4.2	 Anthony's Pizza VI	 Charles Town	 WV
 5.8	 Brothers Pizzeria And Italian Restaurant	 Charles Town	 WV
@@ -363,7 +363,7 @@ score	name	city	state
 7.8	 Krispy Pizza 	 Brooklyn	 NY
 7.6	 Gino's Restaurant	 Brooklyn	 NY
 7.4	 Elegante Pizzeria	 Brooklyn	 NY
-1.9	 Hell�s Kitchen Pizza	 New York	 NY
+1.9	 Hell’s Kitchen Pizza	 New York	 NY
 6.3	 Casola's Pizzeria & Sub Shop	 Miami	 FL
 6.9	 Anthony's	 Watertown	 CT
 6.1	 Lenny's Pizza	 Miami Beach	 FL
@@ -502,7 +502,7 @@ score	name	city	state
 2.1	 Ciro's Pizza Pomodoro	 London	 XGL
 8.2	 Grand Apizza Shoreline	 Clinton	 CT
 7.4	 Resca	 New York	 NY
-7.3	 Nino�s Pizza & Subs	 Boston	 MA
+7.3	 Nino’s Pizza & Subs	 Boston	 MA
 7.7	 Haymarket Pizza	 Boston	 MA
 6.9	 Sotto 13	 New York	 NY
 5.9	 Faraci Pizza	 Ballwin	 MO
@@ -732,10 +732,10 @@ score	name	city	state
 7.1	 Vinnie's Pizzeria	 New York	 NY
 7.3	 Marinara Pizza - Midtown East	 New York	 NY
 7.4	 The Woodstock	 New York	 NY
-6.8	 SIM� PIZZA	 New York	 NY
+6.8	 SIMÒ PIZZA	 New York	 NY
 7.8	 Bocce USQ	 New York	 NY
 6.2	 Black Square Pizza	 New York	 NY
-7.2	 Caf� Crust	 Southampton	 NY
+7.2	 Café Crust	 Southampton	 NY
 6.3	 Francesca's	 Hampton Bays	 NY
 7.4	 Prova Pizzabar	 New York	 NY
 7.7	 Pepe Giallo	 New York	 NY
@@ -939,10 +939,10 @@ score	name	city	state
 7.9	 Borrelli's	 East Meadow	 NY
 8.4	 Saba's Pizza Upper East	 New York	 NY
 4.1	 Carve	 New York	 NY
-6.4	 Kest� Pizza & Vino	 New York	 NY
+6.4	 Kesté Pizza & Vino	 New York	 NY
 6.4	 Claudio Pizzeria	 New York	 NY
 6.8	 Nizza	 New York	 NY
-5.2	 Olio e Pi�	 New York City	 NY
+5.2	 Olio e Piú	 New York City	 NY
 6.4	 Regina Pizzeria	 Mashantucket	 CT
 7.4	 Pecorino	 New York	 NY
 7.0	 Fiore's Pizza	 New York	 NY
@@ -999,7 +999,7 @@ score	name	city	state
 7.4	 L & B Spumoni Gardens	 Brooklyn	 NY
 9.4	 Di Fara Pizza	 Brooklyn	 NY
 6.4	 Belmora Pizza & Restaurant	 New York	 NY
-6.6	 Pizza By Cert�	 New York	 NY
+6.6	 Pizza By Certé	 New York	 NY
 4.3	 My Pie Pizzeria Romana	 New York	 NY
 7.8	 Pizza Da Solo	 New York	 NY
 7.3	 Teresa's Brick Oven Pizza & Cafe	 New York	 NY
@@ -1023,7 +1023,7 @@ score	name	city	state
 7.2	 Proto's Pizza	 New York	 NY
 4.2	 Pizza Italia	 New York	 NY
 7.8	 Joe's Pizza	 New York	 NY
-0.0	 Caf� Muse	 New York	 NY
+0.0	 Café Muse	 New York	 NY
 7.7	 Mike's Pizza	 New York	 NY
 8.6	 Prince Street Pizza	 New York	 NY
 6.9	 Nick's Pizza Bar	 New York	 NY
@@ -1040,7 +1040,7 @@ score	name	city	state
 6.2	 Lombardi's Pizza	 New York	 NY
 6.2	 Famous Original Ray's Pizza	 New York	 NY
 7.4	 Cavallo's Pizzeria	 New York	 NY
-6.8	 Obic� Mozzarella Bar Pizza e Cucina	 New York	 NY
+6.8	 Obicà Mozzarella Bar Pizza e Cucina	 New York	 NY
 8.1	 Lunetta Pizza & Restaurant	 New York	 NY
 7.4	 Florian	 New York	 NY
 4.8	 99 Cent Best & Fresh Pizza	 New York	 NY
